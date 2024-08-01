@@ -3,15 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "format": "prettier --write ."
+  "format": "prettier --write ."
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "axios": "^1.7.2",
-    "mongodb": "^6.8.0",
-    "mongoose": "^8.5.2",
+    "mongoose": "^8.5.1",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
@@ -26,4 +29,6 @@
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1"
   }
+  
+
 }
